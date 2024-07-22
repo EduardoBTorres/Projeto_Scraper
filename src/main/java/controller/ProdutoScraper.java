@@ -61,8 +61,8 @@ public class ProdutoScraper {
         // Listas de seletores CSS para tentar encontrar os elementos desejados
         List<String> tituloSeletores = Arrays.asList(".product-name", ".product-title", "h1");
         List<String> precoSeletores = Arrays.asList(".saleInCents-value", ".price", ".product-price");
-        List<String> imagemSeletores = Arrays.asList(".image-discount-badge", ".zoom-container__figure");
-        List<String> descricaoSeletores = Arrays.asList(".feature__main-content", ".features--title", ".product-details");
+        List<String> imagemSeletores = Arrays.asList(".image-thumb active", ".product-image img");
+        List<String> descricaoSeletores = Arrays.asList(".features-description", ".feature__main-content", ".product-details");
 
         // Função auxiliar para encontrar o primeiro elemento não nulo a partir de uma lista de seletores
         Element tituloElemento = findFirstElement(document, tituloSeletores);
