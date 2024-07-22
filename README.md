@@ -20,9 +20,9 @@ Utilizei a IntelliJ IDEA para codificação desta aplicação.</h4>
   cd ProdutoScraper
 </h4>
 <h4><p></p>Abra o IntelliJ IDEA e verifique as dependências do projeto, logo após no terminal da IDEA digite o seguinte comando: mvn clean install</p>
-  Após isso, execute o programa, e eele solicitará a inserção da URL de uma página de produto da Netshoes.
+  <p>Após isso, execute o programa, e ele solicitará a inserção da URL de uma página de produto da Netshoes.</p>
   Insira a URL do produto e pressione Enter.
-  Exemplos de URL:
+  <p>Exemplos de URL:</p>
   https://www.netshoes.com.br/p/tenis-asics-gel-quantum-180-fly-masculino-branco+vermelho-2FW-0172-024
   https://www.netshoes.com.br/p/mochila-nike-academy-team-unissex-preto+branco-JD8-3107-026
 </h4>
